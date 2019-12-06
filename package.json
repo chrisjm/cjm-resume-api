@@ -1,0 +1,23 @@
+{
+  "name": "cjm-resume-api",
+  "version": "1.0.0",
+  "description": "Chris J Mears' Resume API",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "sls offline start",
+    "lint": "eslint src/"
+  },
+  "repository": "https://github.com/chrisjm/cjm-resume-api",
+  "author": "Chris J Mears",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "serverless": "^1.59.1",
+    "serverless-offline": "^5.12.1"
+  }
+}
